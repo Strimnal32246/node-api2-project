@@ -2,7 +2,7 @@ const express = require("express");
 
 const server = express();
 
-const postsRouter = require("../posts/posts-router");
+const postsRouter = require("./post/post-router");
 
 server.use(express.json());
 
